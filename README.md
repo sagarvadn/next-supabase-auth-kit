@@ -10,14 +10,14 @@
 - ✅ Environment variable configuration
 - ✅ Authentication pages
 - ✅ Protected routes
+- ✅ Password reset functionality
+- ✅ Dark mode support
 
 ### Planned Features:
-- 🚀 Password reset functionality
 - 🚀 OAuth providers (Google, GitHub, etc.)
 - 🚀 Magic link authentication
 - 🚀 Profile update (name, avatar, etc.)
 - 🚀 Secure session handling
-- 🚀 Dark mode support
 - 🚀 Server Actions for better API handling
 - 🚀 ESLint + Prettier setup for code consistency
 - 🚀 Husky + lint-staged for pre-commit hooks
