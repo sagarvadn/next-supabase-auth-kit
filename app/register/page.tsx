@@ -31,7 +31,7 @@ const Login = () => {
     <>
       <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-          <h2 className="mt-10 text-center text-2xl/9 font-bold tracking-tight text-gray-900">
+          <h2 className="mt-10 text-center text-2xl/9 font-bold tracking-tight text-gray-900 dark:text-white">
             Create a new account
           </h2>
         </div>
@@ -42,7 +42,7 @@ const Login = () => {
               <div className="flex flex-col gap-6 w-full">
                 <label
                   color="blue-gray"
-                  className="block text-sm/6 font-medium text-gray-900"
+                  className="block text-sm/6 font-medium text-gray-900 dark:text-white"
                 >
                   First Name
                 </label>
@@ -55,7 +55,7 @@ const Login = () => {
               <div className="flex flex-col gap-6 w-full">
                 <label
                   color="blue-gray"
-                  className="block text-sm/6 font-medium text-gray-900"
+                  className="block text-sm/6 font-medium text-gray-900 dark:text-white"
                 >
                   Last Name
                 </label>
@@ -69,7 +69,7 @@ const Login = () => {
             <div>
               <label
                 htmlFor="email"
-                className="block text-sm/6 font-medium text-gray-900"
+                className="block text-sm/6 font-medium text-gray-900 dark:text-white"
               >
                 Email address
               </label>
@@ -90,7 +90,7 @@ const Login = () => {
               <div className="flex items-center justify-between">
                 <label
                   htmlFor="password"
-                  className="block text-sm/6 font-medium text-gray-900"
+                  className="block text-sm/6 font-medium text-gray-900 dark:text-white"
                 >
                   Password
                 </label>
@@ -124,7 +124,7 @@ const Login = () => {
               />
               <label
                 htmlFor="checked-checkbox"
-                className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                className="ms-2 text-sm font-medium text-gray-900 dark:text-white"
               >
                 I agree with the
                 <Link
@@ -146,7 +146,7 @@ const Login = () => {
             </div>
           </div>
 
-          <p className="mt-10 text-center text-sm/6 text-gray-500">
+          <p className="mt-10 text-center text-sm/6 text-gray-500 dark:text-white">
             Already have an account?{" "}
             <Link
               href="/login"
